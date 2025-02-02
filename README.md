@@ -11,7 +11,7 @@ Email verification code submission to ensure genuine registrations.
 
 Setup Organisation:
 User enters company name, company website URL, and company description.
-Auto-fetch meta-description from the website URL.
+Auto-fetch meta-description from the website URL.( type inside  input box Company Website URL: https://www.artic.edu and you will automatically see fetched data )
 UI to show detected webpages, scraped webpages, and pending webpages (using dummy data).
 Option to click on any webpage to see data chunks scraped from that webpage.
 
@@ -45,6 +45,6 @@ Navigate to the project directory: cd beyondchats-assignment
 Install dependencies: yarn install
 Start the development server: yarn start
 
-Live Website
-You can view the live website here. 
-
+Live Website:
+https://beyondchats-assignment-five.vercel.app/
+\
