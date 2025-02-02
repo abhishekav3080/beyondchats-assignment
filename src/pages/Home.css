@@ -1,0 +1,19 @@
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating {
+  animation: float 3s ease-in-out infinite;
+}
+
+.bg-shady {
+  background: linear-gradient(135deg, #2c3e50 0%, #4ca1af 100%);
+}
