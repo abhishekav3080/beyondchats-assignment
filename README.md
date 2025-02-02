@@ -1,70 +1,99 @@
-# Getting Started with Create React App
+Description:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a UI/UX implementation for setting up a new chatbot for businesses. It includes user registration, organization setup, and chatbot integration and testing. The goal is to provide a seamless and intuitive experience for users to set up and integrate a chatbot with their website. I purposely focused on the UI/UX part because of time limitation.
 
-## Available Scripts
+Features:
 
-In the project directory, you can run:
+User Registration:
+User enters name, email, and password.
+Option to "continue with Google."
+Email verification code submission to ensure genuine registrations.
 
-### `yarn start`
+Setup Organisation:
+User enters company name, company website URL, and company description.
+Auto-fetch meta-description from the website URL.
+UI to show detected webpages, scraped webpages, and pending webpages (using dummy data).
+Option to click on any webpage to see data chunks scraped from that webpage.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Chatbot Integration & Testing:
+"Test chatbot" button to open the client's website with a dummy chatbot integration.
+Topbar with "Chatbot not working as intended? Share feedback."
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+"Integrate on your website" button with two options:
+Easy-to-follow instructions to copy-paste a dummy code within <head> of the website.
+Mail instructions to the client's developer.
 
-### `yarn test`
+"Test integration" button that opens a new screen with:
+Confetti UI or SUCCESS UI showcasing successful integration.
+"Explore Admin Panel" button.
+"Start talking to your chatbot" button.
+Social media sharing buttons.
+Another UI in case integration cannot yet be detected.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+write readme for recruiter to read
+Sure! Here's a detailed and recruiter-friendly ReadMe file for your project:
 
-### `yarn build`
+BeyondChats Assignment
+Description
+This project is a UI/UX implementation for setting up a new chatbot for businesses. It includes user registration, organization setup, and chatbot integration and testing. The goal is to provide a seamless and intuitive experience for users to set up and integrate a chatbot with their website.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Features
+User Registration:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+User enters name, email, and password.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Option to "continue with Google."
 
-### `yarn eject`
+Email verification code submission to ensure genuine registrations.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Setup Organisation:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+User enters company name, company website URL, and company description.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Auto-fetch meta-description from the website URL.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+UI to show detected webpages, scraped webpages, and pending webpages (using dummy data).
 
-## Learn More
+Option to click on any webpage to see data chunks scraped from that webpage.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Chatbot Integration & Testing:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+"Test chatbot" button to open the client's website with a dummy chatbot integration.
 
-### Code Splitting
+Topbar with "Chatbot not working as intended? Share feedback."
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+"Integrate on your website" button with two options:
 
-### Analyzing the Bundle Size
+Easy-to-follow instructions to copy-paste a dummy code within <head> of the website.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Mail instructions to the client's developer.
 
-### Making a Progressive Web App
+"Test integration" button that opens a new screen with:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Confetti UI or SUCCESS UI showcasing successful integration.
 
-### Advanced Configuration
+"Explore Admin Panel" button.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+"Start talking to your chatbot" button.
 
-### Deployment
+Social media sharing buttons.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Another UI in case integration cannot yet be detected.
 
-### `yarn build` fails to minify
+Technologies Used:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ReactJS
+Tailwind CSS
+Axios
+
+Setup Instructions:
+
+Clone the repository: git clone https://github.com/abhishekav3080/beyondchats-assignment.git
+Navigate to the project directory: cd beyondchats-assignment
+
+Install dependencies: yarn install
+Start the development server: yarn start
+
+Live Website
+You can view the live website here. 
+
